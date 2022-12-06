@@ -1,0 +1,12 @@
+MCU = atmega32u4
+F_CPU = 8000000
+BOOTLOADER = caterina
+BLUETOOTH = AdafruitBLE
+BOOTMAGIC_ENABLE = yes      # Virtual DIP switch configuration
+MOUSEKEY_ENABLE = yes      # Mouse keys
+EXTRAKEY_ENABLE = yes       # Audio control and System control
+NKRO_ENABLE = yes            # Nkey Rollover - if this doesn't work, see here: https://github.com/tmk/tmk_keyboard/wiki/FAQ#nkro-doesnt-work
+TAP_DANCE_ENABLE = yes
+DYNAMIC_MACRO_ENABLE = yes
+LEADER_ENABLE = yes
+#BACKLIGHT_ENABLE = yes
